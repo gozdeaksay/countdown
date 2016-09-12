@@ -87,9 +87,10 @@ def post(out):
     payload = {
         "attachments": [
             {   
-                "title": "COUNTDOWN!",
+                "title": "GET READY!",
                 "text": out,
-                "color": "#7CD197"
+                "color": "#7CD197",
+                "image_url": "https://lh3.googleusercontent.com/TbZPIG2QxDOoJ3yEVV-N0nTSTGjD2FdAJWrRTvPqDas-1-Twjx0v-blG_Siv9OD3Vj6FJ_QFHQWg6g=w498-h332-no"
             }
         ]
     }
