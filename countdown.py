@@ -90,7 +90,7 @@ def post(out):
                 "title": "GET READY!",
                 "text": out,
                 "color": "#7CD197",
-                "image_url": "https://s3.amazonaws.com/gozde-patron/countdown/runner.jpg"
+                "image_url": "https://s3.amazonaws.com/gozde-patron/countdown/pot.jpg"
             }
         ]
     }
