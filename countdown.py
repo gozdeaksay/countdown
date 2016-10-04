@@ -45,9 +45,10 @@ def days_from_date(strdate):
 
     
 def events(strdate,event):
+    return "6 hours until %s" % event
     """ Returns string to be displayed with the event mentioned. Sends an error
     if date is incorrect
-    """
+    
     days = days_from_date(strdate)
     assert (days >= -2), "Date needs to be in the future"
     if days == -1:
@@ -58,6 +59,7 @@ def events(strdate,event):
         return "%d day until %s" % (days,event)
     else:
         return "%d days until %s" % (days,event)
+    """
 
 
 def date_only(strdate):
